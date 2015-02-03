@@ -8,7 +8,7 @@
 		reloadPage();
 	}
 	function reloadPage(){
-		setTimeout("reloadPage();", 1000);
+		//setTimeout("reloadPage();", 1000);
 		$('#date').load(document.URL +  ' #date');
 		//alert("awooga");
 	}
@@ -35,10 +35,10 @@
 							ISJoS
 						</li>
 						<li>
-							<a href="">2015</a>
+							<a>2015</a>
 							<ul>
 								<li>
-									<a href="">Master Han Report</a>
+									<a href="index.php">Master Han Report</a>
 								</li>
 							</ul>
 						</li>
@@ -46,7 +46,7 @@
 							ISB JoS
 						</li>
 						<li>
-							<a href="">2014 Issue 1</a>
+							<a>2014 Issue 1</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=CoR+of+Wet+Tennis+Ball">CoR of Wet Tennis Ball</a>
@@ -63,7 +63,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2013 Issue 1</a>
+							<a>2013 Issue 1</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Ball+on+a+Plate">Ball on a Plate</a>
@@ -79,11 +79,14 @@
 								</li>
 							</ul>
 						</li>
+						<li>
+							<a href="http://isjos.org/JoS/index.html">JoS Archive</a>
+						</li>
 						<li class="header">
 							ISB JoP
 						</li>
 						<li>
-							<a href="">2012 Issue 2</a>
+							<a>2012 Issue 2</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Spherical+Harmonics+in+a+Whistle">Spherical Harmonics in a Whistle</a>
@@ -94,7 +97,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2012 Issue 1</a>
+							<a >2012 Issue 1</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Drum+Sound+Intensity">Drum Sound Intensity</a>
@@ -105,7 +108,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2011 Issue 2</a>
+							<a >2011 Issue 2</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Cone-Topped+Tube">Cone-Topped Tube</a>
@@ -122,7 +125,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2011 Issue 1</a>
+							<a >2011 Issue 1</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Diameter+and+End+Correction">Diameter and End Correction</a>
@@ -136,7 +139,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2010 Issue 2</a>
+							<a >2010 Issue 2</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Deceleration+of+a+Shuttlecock">Deceleration of a Shuttlecock</a>
@@ -147,7 +150,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2010 Issue 1</a>
+							<a >2010 Issue 1</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=LED+Resistance+and+Temperature">LED Resistance and Temperature</a>
@@ -161,7 +164,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2009 Issue 2</a>
+							<a >2009 Issue 2</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Velocity+of+a+Golf+Putt">Velocity of a Golf Putt</a>
@@ -178,7 +181,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2009 Issue 1</a>
+							<a >2009 Issue 1</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Turbulator+Diameter+and+Drag+on+a+Sphere">Turbulator Diameter and Drag on a Sphere</a>
@@ -189,7 +192,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2008 Issue 2</a>
+							<a >2008 Issue 2</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Seiche+Waves+in+Deep+and+Shallow+Water">Seiche Waves in Deep and Shallow Water</a>
@@ -203,7 +206,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2008 Issue 1</a>
+							<a >2008 Issue 1</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Water+Oscillation+in+an+Open+Tube">Water Oscillation in an Open Tube</a>
@@ -214,7 +217,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="">2007 Issue 1</a>
+							<a >2007 Issue 1</a>
 							<ul>
 								<li>
 									<a href="http://isjos.org/?paper=Formation+of+Impact+Craters+in+Sand">Formation of Craters In Sand</a>
@@ -228,10 +231,13 @@
 								<li>
 									<a href="http://isjos.org/?paper=Spark+Length+and+the+Van+de+Graaff+Generator">Spark Length and the Van de Graaff Generator</a>
 								</li>
+								
 							</ul>
 						</li>
-					</ul>
-					
+						<li>
+							<a href="http://isjos.org/JoP/index.html">JoP Archive</a>
+						</li>
+					</ul>	
 				</li>
 			</ul>
 		</nav>
