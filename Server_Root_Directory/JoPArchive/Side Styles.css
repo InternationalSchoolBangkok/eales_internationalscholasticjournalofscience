@@ -1,0 +1,36 @@
+body {
+	background-color: #1B24A0;
+}
+.style5 {color: #000000}
+.style8 {font-size: 14}
+.style9 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+}
+.style11 {font-size: 14; color: #FFFFFF; }
+.style12 {color: #FFFFFF}
+.style14 {font-family: "Times New Roman", Times, serif; font-size: 36px; }
+.style18 {
+	font-size: 13px;
+	font-weight: bold;
+}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.style19 {font-size: 14; color: #FFFFFF; font-weight: bold; }
+.style20 {font-weight: bold}
+.style22 {font-weight: bold}
+a {
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}

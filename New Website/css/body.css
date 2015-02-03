@@ -1,0 +1,29 @@
+/* Thantham (Judge) Madan, Kolatat Thangkasemvathana */
+body {
+	margin: 0;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial;
+	background-image: url("../images/background.png");
+	height: 100%;
+	background-size:  100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+div.maincontent {
+	width: 68%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	background-color: rgba(240,240,240,0.4);
+	border-radius: 25px;
+	margin-top:3%;
+}
+
+div.header {
+	padding-top: 60px;
+	padding-bottom: 12px;
+	margin-top: -40px;
+	text-align: center;
+	font-family: "Helvetica Neue", Arial;
+	font-size: 30px;
+}

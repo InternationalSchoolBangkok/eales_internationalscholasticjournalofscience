@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xml>
+	<!--Journal of physics starts here-->
+	<!--vol1iss1-->
+	<item>
+		<name>Formation of Impact Craters in Sand</name>
+		<location>/JoPArchive/vol1iss1/Papers/Craters.pdf</location>
+	</item>
+	<item>
+		<name>Coefficient of Restitution of a Tennis Ball</name>
+		<location>/JoPArchive/vol1iss1/Papers/Tennis.pdf</location>
+	</item>
+	<item>
+		<name>Mass of an Air Cannon Vortex</name>
+		<location>/JoPArchive/vol1iss1/Papers/Vortex.pdf</location>
+	</item>
+	<item>
+		<name>Spark Length and the Van de Graaff Generator</name>
+		<location>/JoPArchive/vol1iss1/Papers/Sparks.pdf</location>
+	</item>
+	<!--vol2iss1-->
+	<item>
+		<name>Water Oscillation in an Open Tube</name>
+		<location>/JoPArchive/vol2iss1/Papers/TubeOscill.pdf</location>
+	</item>
+	<item>
+		<name>Effectiveness of Nivea Sunscreen under Ultraviolet Light</name>
+		<location>/JoPArchive/vol2iss1/Papers/Sunscreen.pdf</location>
+	</item>	
+	<!--vol2iss2-->
+	
+	<item>
+		<name>Seiche Waves in Deep and Shallow Water</name>
+		<location>/JoPArchive/vol2iss2/Papers/Seiche.pdf</location>
+	</item>
+	<item>
+		<name>Velocity of a Paintball in Air</name>
+		<location>/JoPArchive/vol2iss2/Papers/Paintball.pdf</location>
+	</item>
+	<item>
+		<name>LED Intensity as a function of Input Power</name>
+		<location>/JoPArchive/vol2iss2/Papers/LED.pdf</location>
+	</item>
+	<!--vol3iss1-->
+	<item>
+		<name>Turbulator Diameter and Drag on a Sphere</name>
+		<location>/JoPArchive/vol3iss1/Papers/Turbulator.pdf</location>
+	</item>
+	<item>
+		<name>Wavelength and End Correction in a Recorder</name>
+		<location>/JoPArchive/vol3iss1/Papers/Recorder.pdf</location>
+	</item>
+	<!--vol3iss2-->
+	<item>
+		<name>Velocity of a Golf Putt</name>
+		<location>/JoPArchive/vol3iss2/Papers/1Putting.pdf</location>
+	</item>
+	<item>
+		<name>Ball Pressure and Coefficient of Restitution</name>
+		<location>/JoPArchive/vol3iss2/Papers/2COR.pdf</location>
+	</item>
+	<item>
+		<name>Increasing Collision Time Through the Use of Cushioning</name>
+		<location>/JoPArchive/vol3iss2/Papers/3Cushion.pdf</location>
+	</item>
+	<item>
+		<name>The Glowing Pickle and Other Vegetables</name>
+		<location>/JoPArchive/vol3iss2/Papers/4GlowPick.pdf</location>
+	</item>
+	<!--vol4iss1-->
+	<item>
+		<name>LED Resistance and Temperature</name>
+		<location>/JoPArchive/vol4iss1/Papers/1LEDTemp.pdf</location>
+	</item>
+	<item>
+		<name>Crater Formation in Water</name>
+		<location>/JoPArchive/vol4iss1/Papers/2Craters.pdf</location>
+	</item>
+	<item>
+		<name>Superball Temperature and Coefficient of Restitution</name>
+		<location>/JoPArchive/vol4iss1/Papers/3Superball.pdf</location>
+	</item>
+	<!--vol4iss2-->
+	<item>
+		<name>Deceleration of a Shuttlecock</name>
+		<location>/JoPArchive/vol4iss2/Papers/1Badminton.pdf</location>
+	</item>
+	<item>
+		<name>Double Ball Bounce</name>
+		<location>/JoPArchive/vol4iss2/Papers/2BallBounce.pdf</location>
+	</item>
+	<!--vol5iss1-->
+	<item>
+		<name>Diameter and End Correction</name>
+		<location>/JoPArchive/vol5iss1/Papers/1EndCorrection.pdf</location>
+	</item>
+	<item>
+		<name>Resonance in a Bottle</name>
+		<location>/JoPArchive/vol5iss1/Papers/2HelmholtzBottle.pdf</location>
+	</item>
+	<item>
+		<name>Temperature of a Tuning Fork</name>
+		<location>/JoPArchive/vol5iss1/Papers/3TuningFork.pdf</location>
+	</item>
+	<!--vol5iss2-->
+	<item>
+		<name>Cone-Topped Tube</name>
+		<location>/JoPArchive/vol5iss2/Papers/1ResonanceCone.pdf</location>
+	</item>
+	<item>
+		<name>Spherical Resonator</name>
+		<location>/JoPArchive/vol5iss2/Papers/2HelmholtzNeck.pdf</location>
+	</item>
+	<item>
+		<name>Length and Flow Rate</name>
+		<location>/JoPArchive/vol5iss2/Papers/3TubeFlow.pdf</location>
+	</item>
+	<item>
+		<name>Can Telephone</name>
+		<location>/JoPArchive/vol5iss2/Papers/4CanTelephone.pdf</location>
+	</item>
+	<!--vol6iss1-->
+	<item>
+		<name>Drum Sound Intensity</name>
+		<location>/JoPArchive/vol6iss1/Papers/1Drum.pdf</location>
+	</item>
+	<item>
+		<name>Resonance in Bottles</name>
+		<location>/JoPArchive/vol6iss1/Papers/2Bottle.pdf</location>
+	</item>
+	<!--vol6iss2-->
+	<item>
+		<name>Spherical Harmonics in a Whistle</name>
+		<location>/JoPArchive/vol6iss2/Papers/1SphericalHarmonics.pdf</location>
+	</item>
+	<item>
+		<name>Impulse of a Kendo Strike</name>
+		<location>/JoPArchive/vol6iss2/Papers/2Kendo.pdf</location>
+	</item>
+	<!--Journal of Science starts here-->
+	<!--vol7iss1-->
+	<item>
+		<name>Ball on a Plate</name>
+		<location>/JoSArchive/vol7iss1/Papers/JoSV7p1-BallOnPlate.pdf</location>
+	</item>
+	<item>
+		<name>CoR of Ball</name>
+		<location>/JoSArchive/vol7iss1/Papers/JoSV7p2-CoRLoPress.pdf</location>
+	</item>
+	<item>
+		<name>Ball Spin and Deflection</name>
+		<location>/JoSArchive/vol7iss1/Papers/JoSV7p3-BallSpin.pdf</location>
+	</item>
+	<item>
+		<name>Badminton Dropshot</name>
+		<location>/JoSArchive/vol7iss1/Papers/JoSV7p4-Dropshot.pdf</location>
+	</item>
+	<!--vol8iss1-->
+	<item>
+		<name>CoR of Wet Tennis Ball</name>
+		<location>/JoSArchive/vol8iss1/Papers/JoSV8p1-WetTennisBall.pdf</location>
+	</item>
+	<item>
+		<name>Conga Sound Quality</name>
+		<location>/JoSArchive/vol8iss1/Papers/JoSV8p2-CongaSoundQuality.pdf</location>
+	</item>
+	<item>
+		<name>Force on a Landing Cat</name>
+		<location>/JoSArchive/vol8iss1/Papers/JoSV8p3-CatLanding.pdf</location>
+	</item>
+	<item>
+		<name>Seed Dispersal</name>
+		<location>/JoSArchive/vol8iss1/Papers/JoSV8p4-SeedDispersal.pdf</location>
+	</item>
+	<!--ISJOS starts here-->
+</xml>

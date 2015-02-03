@@ -1,0 +1,81 @@
+/* Thantham (Judge) Madan, Kolatat Thangkasemvathana */
+nav.globalheader {
+	list-style: none;
+	line-height: 45px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial;
+	padding: 0;
+	margin: 0;
+	opacity: 0.85;
+}
+
+nav.globalheader ul {
+	list-style: none;
+	background-color: #444;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+}
+
+nav.globalheader a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+nav.globalheader a:hover {
+	transition: .3s;
+	background-color: #797979;
+}
+
+nav.globalheader ul li {
+	width: 150px;
+	padding-left: 0.1%;
+	padding-right: 0.1%;
+	border-bottom: none;
+	height: 45px;
+	display: inline-block;
+	margin-right: 0px;
+	position: relative;
+}
+
+nav.globalheader ul li:hover ul {
+	visibility: visible;
+}
+
+nav.globalheader ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: calc(100% - 1.2px);
+	margin-top: -2.6px;
+	visibility: hidden;
+	margin-left: 1.5px;
+}
+
+nav.globalheader ul li ul li:hover ul {
+	visibility: visible !important;
+}
+nav.globalheader ul li ul li ul {
+	left: -200%;
+	width: 200%;
+	top: 2px;
+	visibility: hidden !important;
+}
+nav.globalheader ul li ul li {
+	display: block;
+	color: white;
+	width: 100%;
+}
+
+nav.globalheader ul li ul li.header {
+
+	text-decoration: underline;
+}
+
+nav.globalheader ul li a span {
+	margin-top: 10px;
+	font-size: 11px;
+	cursor: default;
+}
