@@ -5,19 +5,13 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script>
 	function onLoad(){
-		$().ready(function() {
-			$('#iFrame').height($(window).height() - 62);
-		});
-		$(window).resize(function() {
-			$('#iFrame').height($(window).height() - 62);
-		});
+		reloadPage();
 	}
-	/*
 	function reloadPage(){
-	setTimeout("reloadPage();", 1000);
-	$('#date').load(document.URL +  ' #date');
-	//alert("awooga");
-	}/*
+		//setTimeout("reloadPage();", 1000);
+		$('#date').load(document.URL +  ' #date');
+		//alert("awooga");
+	}
 	</script>
 </head>
 <body onload="onLoad();">
@@ -47,6 +41,21 @@ if($paperName==""): ?>
 		In January of 2013, the Journal was expanded to accept papers from all the sciences and was renamed the ISB Journal of Science. The Journal of Science is edited by Dr. Jonathan Eales. The Peer Review Board consists of current and former secondary school science teachers. The Journal of Science publishes papers on a rolling basis as they are received throughout the year. Articles in the Journal are copyrighted under Creative Commons licensing. The Journal is listed in the Directory of Open Access Journals.
 	</p>
 </div>
+<?php 
+/*libxml_use_internal_errors(true);
+$xml = simplexml_load_file("mapFile.xml") or die("Error: Cannot create object");
+if ($xml === false) {
+echo "Failed loading XML: ";
+foreach(libxml_get_errors() as $error) {
+echo "<br>", $error->message;
+}
+} else {
+foreach($xml->item as $item){
+echo "<a href=\"/?paper=",urlencode($item->name),"\">",$item->name,"</a></br>";
+//echo $item->location,$item->name;
+}
+}*/
+?>
 <?php else: 
 	libxml_use_internal_errors(true);
 	$xml = simplexml_load_file("mapFile.xml") or die("Error: Cannot create object");
@@ -56,17 +65,22 @@ if($paperName==""): ?>
 			echo "<br>", $error->message;
 		}
 	} else {
-		foreach($xml->issue as $issue){
-			foreach($issue->paper as $paper){
-				if($paperName == $paper->name){
-					$paperLocation = $paper->location;
-				}	
-			}	
+		foreach($xml->item as $item){
+			//Now you can access the 'row' data using $Item in this case 
+			//two elements, a name and an array of key/value pairs
+			//echo $item->name,"	",$item->location,"</br>";
+			if($paperName == $item->name){
+				//echo $item->location;
+				$paperLocation = $item->location;
+			}
 		}
+		//print_r($xml);	
 	}
 	?>
-	<iframe id="iFrame" src="http://docs.google.com/gview?url=http://isjos.org<?php echo $paperLocation?>&embedded=true" style="width:100%; height:100%;" frameborder="0">
-	</iframe>
+	<div style="height: 100px;">
+		<iframe src="http://docs.google.com/gview?url=http://isjos.org<?php echo $paperLocation?>&embedded=true" style="width:100%; height:10000px;" frameborder="0">
+		</iframe>
+	</div>
 	<?php endif ?>
 </body>
 </html>
