@@ -32,7 +32,7 @@ $paperLocation = "";
 if($paperName==""): ?>
 <div class="maincontent">
 	<div class="header">
-		Interscholastic Journal of Science
+		International Scholastic Journal of Science
 	</div>
 	<p>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

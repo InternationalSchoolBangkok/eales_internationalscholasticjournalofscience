@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xml>
+	<issue>
+		<year>2015</year>
+		<archive>false</archive>
+		<paper>
+			<name>Force on a Landing Cat</name>
+			<location>/JoS/vol8iss1/Papers/JoSV8p3-CatLanding.pdf</location>
+		</paper>
+	</issue>
+	<issue>
+		<year>2014</year>
+		<archive>true</archive>
+		<paper>
+			<name>Seed Dispersal</name>
+			<location>/JoS/vol8iss1/Papers/JoSV8p4-SeedDispersal.pdf</location>
+		</paper>
+	</issue>
+</xml>
