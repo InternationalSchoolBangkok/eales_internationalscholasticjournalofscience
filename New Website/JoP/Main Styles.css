@@ -1,0 +1,27 @@
+body {
+	background-color: #B9BDF4;
+}
+.style1 {font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+}
+.style5 {font-family: "Times New Roman", Times, serif; font-size: 18px; font-weight: bold; }
+.style8 {font-family: "Times New Roman", Times, serif; font-size: 24px; }
+.style20 {font-size: 12px; }
+.style22 {color: #B9BDF4; font-size: 9px; }
+a:link {
+	color: #0033CC;
+	text-decoration: none;
+}
+a:visited {
+	color: #0033CC;
+	text-decoration: none;
+}
+a {
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
