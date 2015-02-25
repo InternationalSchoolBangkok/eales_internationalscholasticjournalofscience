@@ -1,0 +1,156 @@
+body, html { 
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+body {
+font-family:Garamond,serif;
+margin:0;
+overflow: hidden;
+background:url('background.png');
+
+}
+
+a,a:visited {
+color:#88d;
+text-decoration:none;
+transition:color .5s;
+-moz-transition:color .5s;
+-o-transition:color .5s;
+-webkit-transition:color .5s;
+}
+
+a:hover,a:active {
+color:#ddd;
+transition:color .5s;
+-moz-transition:color .5s;
+-o-transition:color .5s;
+-webkit-transition:color .5s;
+}
+
+#navbar {
+width:100%;
+background-color:#666;
+position:fixed;
+z-index:99999;
+top:0;
+}
+
+#navbar ul {
+list-style-type:none;
+overflow:hidden;
+margin:0;
+padding:0;
+}
+
+#navbar li {
+float:right;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+font-family:Futura, sans-serif;
+letter-spacing: .5px;
+}
+
+#navbar a{
+display:block;
+width:140px;
+height:auto;
+color:#FFF;
+background-color:#666;
+transition:background-color .9s;
+-moz-transition:background-color .9s;
+-o-transition:background-color .9s;
+-webkit-transition:background-color .9s;
+padding:10px;
+}
+
+#navbar a:hover,a:active {
+background-color:#555;
+transition:background-color .9s;
+-moz-transition:background-color .9s;
+-o-transition:background-color .9s;
+-webkit-transition:background-color .9s;
+}
+
+.logoTopLeft {
+margin-top:-41px;
+height:41px;
+padding-left:3px;
+    padding-top:1px;
+}
+
+.imageOverlayText {
+width:100%;
+height:100%;
+position:relative;
+    top:40%;
+font-family: Futura, sans-serif;
+font-size:2em;
+letter-spacing:1px;
+text-align:center;
+text-transform:uppercase;
+
+}
+
+
+.title {
+font-family:Futura, sans-serif;
+letter-spacing:1px;
+text-align:center;
+text-transform:uppercase;
+color:#333;
+}
+
+.body {
+width:600px;
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+line-height:180%;
+text-align: justify;
+}
+
+.textContainer{
+position: relative;
+top: 50%;
+transform:translateY(-50%); 
+ margin-top:-21px;
+}
+
+
+.cred {
+position:fixed;
+bottom:0;
+width:100%;
+text-align:center;
+z-index:-1;
+}
+
+#contact {
+padding-top:50px;
+width:100%;
+height:90%;
+margin-bottom:5%;
+}
+
+#home {
+<<<<<<< Updated upstream
+height: 64%;
+margin: 93px 0px;
+=======
+background-image: url("placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+padding-top:50px;
+width:100%;
+height:100%;
+
+>>>>>>> Stashed changes
+}
+
+#description,#about {
+padding-top:50px;
+width:100%;
+height:100%;
+}
