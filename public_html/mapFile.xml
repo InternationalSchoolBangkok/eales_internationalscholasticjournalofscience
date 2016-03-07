@@ -1,18 +1,63 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xml>
+	<currentIssue>2016</currentIssue>
+	<issue>
+		<year>2016</year>
+		<ISSN>1234-5678</ISSN>
+		<editorNoteLocation>/editorvol10.php</editorNoteLocation>
+		<paper>
+			<name>Sample1</name>
+			<author>Author1</author>
+			<location>/JoS/vol8iss1/Papers/JoSV8p4-SeedDispersal.pdf</location>
+		</paper>
+		<paper>
+			<name>Sample2</name>
+			<author>Author2</author>
+			<location>/JoS/vol8iss1/Papers/JoSV8p4-SeedDispersal.pdf</location>
+		</paper>
+	</issue>
 	<issue>
 		<year>2015</year>
-		<archive>false</archive>
+		<ISSN>2408-1884</ISSN>
+		<editorNoteLocation>/editorvol10.php</editorNoteLocation>
 		<paper>
-			<name>Force on a Landing Cat</name>
+			<name>Sample3</name>
+			<author>Author3</author>
+			<location>/JoS/vol8iss1/Papers/JoSV8p3-CatLanding.pdf</location>
+		</paper>
+		<paper>
+			<name>Sample4</name>
+			<author>Author4</author>
 			<location>/JoS/vol8iss1/Papers/JoSV8p3-CatLanding.pdf</location>
 		</paper>
 	</issue>
 	<issue>
 		<year>2014</year>
-		<archive>true</archive>
+		<ISSN>6933-5946</ISSN>
+		<editorNoteLocation>/editorvol10.php</editorNoteLocation>
 		<paper>
-			<name>Seed Dispersal</name>
+			<name>Sample5</name>
+			<author>Author5</author>
+			<location>/JoS/vol8iss1/Papers/JoSV8p4-SeedDispersal.pdf</location>
+		</paper>
+		<paper>
+			<name>Sample6</name>
+			<author>Author6</author>
+			<location>/JoS/vol8iss1/Papers/JoSV8p4-SeedDispersal.pdf</location>
+		</paper>
+	</issue>
+	<issue>
+		<year>2013</year>
+		<ISSN>9643-6969</ISSN>
+		<editorNoteLocation>/editorvol10.php</editorNoteLocation>
+		<paper>
+			<name>Sample7</name>
+			<author>Author7</author>
+			<location>/JoS/vol8iss1/Papers/JoSV8p4-SeedDispersal.pdf</location>
+		</paper>
+		<paper>
+			<name>Sample8</name>
+			<author>Author8</author>
 			<location>/JoS/vol8iss1/Papers/JoSV8p4-SeedDispersal.pdf</location>
 		</paper>
 	</issue>

@@ -19,7 +19,7 @@
 		    <br>
 		  ISSN: XXXX-XXXX</h2>
 		  <p>1. The Effect of Temperature on Young's Modulus of Glass: A Determination from a Wine Glass in an Oven.<br>
-	      <em>Rachel Seng and Amitta Miller</em></p>
+	    <em>Rachel Seng and Amitta Miller</em></p>
 		</blockquote>
 	</div>
 	<?php
