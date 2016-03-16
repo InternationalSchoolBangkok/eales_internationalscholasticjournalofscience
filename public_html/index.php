@@ -19,19 +19,19 @@
 	setTimeout("reloadPage();", 1000);
 	$('#date').load(document.URL + ' #date');
 	//alert("awooga");
-	}/*
-	</script>
+}/*
+</script>
 </head>
 <body onLoad="onLoad();">
 	<?php
-include 'nav.php';
-parse_str($_SERVER['QUERY_STRING'], $queryParams);
-//commented section prints ALL parameters in GET
-//print_r($queryParams);
-//echo $queryParams["paper"];
-$paperName = $queryParams["paper"];
-$paperLocation = "";
-if($paperName==""): ?>
+	include 'nav.php';
+	parse_str($_SERVER['QUERY_STRING'], $queryParams);
+	//commented section prints ALL parameters in GET
+	//print_r($queryParams);
+	//echo $queryParams["paper"];
+	$paperName = $queryParams["paper"];
+	$paperLocation = "";
+	if($paperName==""): ?>
 	<div class="header">
 		<img style="width:75%;margin-top:100px;border-radius:15px" src="images/landing.png">
 	</div>
@@ -53,7 +53,7 @@ if($paperName==""): ?>
 		}
 	}
 	?>
-<iframe id="iFrame" src="http://isjos.org/pdfjs/web/viewer.html?file=<?php echo $paperLocation?>" style="width:100%; height:100%;" frameborder="0"></iframe>
+	<iframe id="iFrame" src="http://isjos.org/pdfjs/web/viewer.html?file=<?php echo $paperLocation?>" style="width:100%; height:100%;" frameborder="0"></iframe>
 <?php endif ?>
 <?php
 include 'footer.php';
